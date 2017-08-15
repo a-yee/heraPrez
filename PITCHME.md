@@ -18,7 +18,7 @@ Can you see it ?
 <!--
 {
 "data" : {
-    "labels": ["Delay", "Replicas", "Delivery_Ratio"]
+    "labels": ["Delay", "Replicas", "Delivery_Ratio"],
     "datasets": [{
             "label": "Prophet",
             "backgroundColor": "rgba(63,191,191,1)",
