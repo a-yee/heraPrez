@@ -1,3 +1,3 @@
-mathjax : TeX=MML-AM_HTMLorMML-full
+mathjax : TeX-MML-AM_HTMLorMML-full
 highlight : tango
 theme : moon
