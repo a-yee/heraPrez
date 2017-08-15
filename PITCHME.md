@@ -8,6 +8,6 @@ By Alex Yee
 check out the next page. 
 Can you see it ?
 
-+++?image=~/sjsu/17S/heraPrez/img00.svg
++++?image=img00.svg
 <!-- .slide: data-background-transition="none" -->
 +++
