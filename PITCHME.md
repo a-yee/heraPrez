@@ -14,39 +14,22 @@ Can you see it ?
 <!-- .slide: data-background-transition="none" -->
 ---
 <canvas data-chart="radar">
-Month, January, February, March, April, May, June, July
-My first dataset, 65, 59, 80, 81, 56, 55, 40
-My second dataset, 28, 48, 40, 19, 86, 27, 90
-</canvas>
-
-+++
-<canvas class="stretch" data-chart="bar">
-My first dataset, 65, 59, 80, 81, 56, 55, 40
-<!-- This is a comment that will be ignored -->
-My second dataset, 28, 48, 40, 19, 86, 27, 90
-<!-- 
-{ 
- "data" : {
-  "labels" : ["Enero", "Febrero", "Marzo", "Avril", "Mayo", "Junio", "Julio"], 
-  "datasets" : [{ "borderColor": "#0f0", "borderDash": ["5","10"] }, { "borderColor": "#0ff" } ]
- }
-}
--->
-</canvas>
-+++
-<canvas data-chart="radar">
 <!-- 
 {
  "data": {
-  "labels": ["January"," February"," March"," April"," May"," June"," July"],
+  "labels": ["Delay", "Replicas", "Delivery Ratio"],
   "datasets": [
    {
     "data":[65,59,80,81,56,55,40],
-    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
+    "label":"Prophet","backgroundColor":"rgba(20,220,220,.8)"
+   },
+   {
+    "data":[1,19,98,45,77,12,55],
+    "label":"Epidemic","backgroundColor":"rgba(30,219,20,.8)"
    },
    {
     "data":[28,48,40,19,86,27,90],
-    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
+    "label":"Direct Delivery","backgroundColor":"rgba(220,120,120,.8)"
    }
   ]
  }, 
