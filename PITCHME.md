@@ -3,6 +3,11 @@
 By Alex Yee
 
 ---
-# Some Math Stuff Here
+# cool image stuff
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+check out the next page. 
+Can you see it ?
+
++++?image=img00.png
+<!-- .slide: data-background-transition="none" -->
++++
