@@ -34,7 +34,7 @@ My second dataset, 28, 48, 40, 19, 86, 27, 90
 -->
 </canvas>
 +++
-<canvas data-chart="line">
+<canvas data-chart="radar">
 <!-- 
 {
  "data": {
