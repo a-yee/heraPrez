@@ -15,6 +15,8 @@ Can you see it ?
 
 ---
 <canvas data-chart="radar">
+<!--
+    {
     "labels": ["Delay", "Replicas", "Delivery_Ratio"]
     "datasets": [{
             "label": "Prophet",
@@ -29,5 +31,6 @@ Can you see it ?
             "backgroundColor": "rgba(90,50,50,1)",
             "data" = [0, 0, 25]
         }]
-    };
+    }
+-->
 </canvas>
