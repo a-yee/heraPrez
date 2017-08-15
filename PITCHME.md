@@ -16,7 +16,8 @@ Can you see it ?
 ---
 <canvas data-chart="radar">
 <!--
-    {
+{
+"data" : {
     "labels": ["Delay", "Replicas", "Delivery_Ratio"]
     "datasets": [{
             "label": "Prophet",
@@ -32,5 +33,6 @@ Can you see it ?
             "data" = [0, 0, 25]
         }]
     }
+}
 -->
 </canvas>
