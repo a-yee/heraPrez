@@ -44,6 +44,9 @@ $$m\_{new}^{(0)}(z0,z1) = m\_{old}^{(0)}(z0,z1) + 1$$
 Transitive Update
 $$m\_{new}^{(h)}(z0, i) = m\_{old}^{(h)}(z0,i) + \lambda\_h \cdot
     m\_{old}^{(h-1)}(z1,i)$$
+
+$$\text{where } i \in i=1,...,H$$
+
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
 
