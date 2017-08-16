@@ -349,17 +349,17 @@ public class HeraRouter extends ActiveRouter {
                 continue; // skip hosts that are transferring
             }
 
-            for ( Message m : msgCollection ) {
-                if ( othRouter.hasMessage( m.getId() ) ) {
-                    continue; // skip messages that other one has
-                }
-                // main check for determining to pass message forward
-                if (othRouter.omega(m.getTo()) > this.omega(m.getTo())) {
-                // the other node has larger reach and possibility of delivery
-                messages.add(new Tuple<Message, Connection>(m,con));
-                }
-            }
+    for ( Message m : msgCollection ) {
+        if ( othRouter.hasMessage( m.getId() ) ) {
+        continue; // skip messages that other one has
         }
+        // main check for determining to pass message forward
+        if (othRouter.omega(m.getTo()) > this.omega(m.getTo())) {
+        // the other node has larger reach and possibility of delivery
+        messages.add(new Tuple<Message, Connection>(m,con));
+        }
+    }
+}
 
         if (messages.size() == 0) {
             return null;
