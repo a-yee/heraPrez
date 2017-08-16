@@ -57,11 +57,11 @@ $$\begin{align}
     \end{bmatrix}
 \end{align} \rightarrow 
 \begin{bmatrix}
-    m^{(0)}(z0) m^{(0)}(z1) \cdots m^{(0)}(zN) \\\
-    m^{(1)}(z0) m^{(1)}(z1) \cdots m^{(0)}(zN) \\\
-    m^{(2)}(z0) m^{(2)}(z1) \cdots m^{(2)}(zN) \\\
-    \vdots \vdots \ddots \vdots \\\
-    m^{(H)}(z0) m^{(H)}(z1) \cdots m^{(H)}(zN)
+    m^{(0)}(z0) & m^{(0)}(z1) & \cdots & m^{(0)}(zN) \\\
+    m^{(1)}(z0) & m^{(1)}(z1) & \cdots & m^{(0)}(zN) \\\
+    m^{(2)}(z0) & m^{(2)}(z1) & \cdots & m^{(2)}(zN) \\\
+    \vdots & \vdots & \ddots & \vdots \\\
+    m^{(H)}(z0) & m^{(H)}(z1) & \cdots & m^{(H)}(zN)
 \end{bmatrix}$$
 
 ---
