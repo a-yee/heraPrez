@@ -81,10 +81,10 @@ $$\text{where } i \in \\{ \text{set of encountered nodes} \\}
 $$\text{where } h=1,...,H \text{ for } h \in \mathbb{N}$$
 
 +++
-### $$\vec\lambda \text{ Gives You Control}$$
+### Lambda Gives You Control
 
- - $$\text{The } \lambda\_{h}$$ \text{ in HERA's update process, simulates how much you trust
-   new information}$$
+ - The $lambda\_{h}$ in HERA's update process, simulates how much you trust
+   new information
  - Local weighting control
  - Not just hops but control over non-direct encounters.
 
