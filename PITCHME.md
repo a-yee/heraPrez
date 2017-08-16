@@ -30,7 +30,9 @@ By Alex Yee
 ---
 ### Issues with Prophet
 
- - Susceptible to 
+ - Susceptible to artificially large predictability values
+ - Mountain problem
+ - Can't handle localized cluster of nodes that interact frequently
 
 +++
 Direct Encounters
@@ -49,32 +51,32 @@ $$P(a,b) = P(a,b)\_{old} \cdot \gamma^{k}$$
 
 $$\begin{align} 
     preds &= \begin{bmatrix}
-    p(z0) \\\
-    p(z1) \\\
-    p(z2) \\\
+    p(z\_0) \\\
+    p(z\_1) \\\
+    p(z\_2) \\\
     \vdots \\\
-    p(zN) 
+    p(z\_N) 
     \end{bmatrix}
 \end{align} \rightarrow 
 \begin{bmatrix}
-    m^{(0)}(z0) & m^{(0)}(z1) & \cdots & m^{(0)}(zN) \\\
-    m^{(1)}(z0) & m^{(1)}(z1) & \cdots & m^{(0)}(zN) \\\
-    m^{(2)}(z0) & m^{(2)}(z1) & \cdots & m^{(2)}(zN) \\\
+    m^{(0)}(z\_0) & m^{(0)}(z\_1) & \cdots & m^{(0)}(z\_N) \\\
+    m^{(1)}(z\_0) & m^{(1)}(z\_1) & \cdots & m^{(0)}(z\_N) \\\
+    m^{(2)}(z\_0) & m^{(2)}(z\_1) & \cdots & m^{(2)}(z\_N) \\\
     \vdots & \vdots & \ddots & \vdots \\\
-    m^{(H)}(z0) & m^{(H)}(z1) & \cdots & m^{(H)}(zN)
+    m^{(H)}(z\_0) & m^{(H)}(z\_1) & \cdots & m^{(H)}(z\_N)
 \end{bmatrix}$$
 
 ---
 ### HERA Formulas
 
-Direct Encounters
-$$m\_{new}^{(0)}(z0,z1) = m\_{old}^{(0)}(z0,z1) + 1$$
+__Direct Encounters__
+$$m\_{new}^{(0)}(z\_0,z\_1) = m\_{old}^{(0)}(z\_0,z\_1) + 1$$
 
-Transitive Update
-$$m\_{new}^{(h)}(z0, i) = m\_{old}^{(h)}(z0,i) + \lambda\_h \cdot
-    m\_{old}^{(h-1)}(z1,i)$$
+__Transitive Update__
+$$m\_{new}^{(h)}(z\_0, i) = m\_{old}^{(h)}(z\_0,i) + \lambda\_h \cdot
+    m\_{old}^{(h-1)}(z\_1,i)$$
 
-$$\text{where } i \in i=1,...,H$$
+$$\text{where } i=1,...,H$$
 
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
