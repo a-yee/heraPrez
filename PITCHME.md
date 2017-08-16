@@ -36,16 +36,14 @@ Direct Contact
 <!-- .slide: data-background-transition="none" -->
 
 ---
-# HERA Update Formulas
+# HERA Formulas
 
-$$m\_{new}^{(0)}(z0,z1)$$
-$$\text{m}\_{new}^{(0)}(z0,z1)$$
-$$m\_{new}^{\left(0\right)}\left(z0,z1\right)$$
+Direct Encounters
+$$m\_{new}^{(0)}(z0,z1) = m\_{old}^{(0)}(z0,z1) + 1$$
 
 Transitive Update
-$$m_{new}^{(h)}(z0, i) = m_{old}^{(h)}(z0,i) + \lambda_h \cdot m_{old}^{(h-1)}(z1,i)$$
-
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+$$m\_{new}^{(h)}(z0, i) = m\_{old}^{(h)}(z0,i) + \lambda\_h \cdot
+    m\_{old}^{(h-1)}(z1,i)$$
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
 
