@@ -76,7 +76,7 @@ __Transitive Update__
 $$m\_{new}^{(h)}(z\_0, i) = m\_{old}^{(h)}(z\_0,i) + \lambda\_h \cdot
     m\_{old}^{(h-1)}(z\_1,i)$$
 
-$$\text{where } i \in \{ \text{set of encountered nodes} \}
+$$\text{where } i \in \\{ \text{set of encountered nodes} \\}
     \text{ s.t. } i \neq z\_1$$
 $$\text{where } h=1,...,H \text{ for } h \in \mathbb{Z}$$
 
