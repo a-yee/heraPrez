@@ -30,8 +30,16 @@ By Alex Yee
 ---
 # Issues with Prophet
 
-Direct Contact
+Direct Encounters
+$$P(a,b) = P(a,b)\_{old} + \left(1 - P(a,b)\_{old}\right) \cdot
+    P\_{init}$$
 
+Transitive Update
+$$P(a,c) = P(a,c)\_{old} + \left(1 - P(a,c)\_{old}\right)\cdot
+    P(a,b)\cdot P(b,c) \cdot \beta$$
+
+Aging
+$$P(a,b) = P(a,b)\_{old} \cdot \gamma^{k}$$
 +++?image=imgFile
 <!-- .slide: data-background-transition="none" -->
 
