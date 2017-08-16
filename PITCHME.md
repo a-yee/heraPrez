@@ -110,4 +110,4 @@ $$p(z\_k) \approx \begin{align}
 $$\Omega\_{z\_{0}}(z\_{k}) = \sum\_{h=0}^{H} \gamma\_{h} \cdot
     m\_{z\_0}^{(h)}(z\_{k})$$
 
-$$\Omega\_{z\_{0}}(z\_{k}) = \vec\gamma \cdot \vec\M\_{z\_{0}}(z\_{k})$$
+$$\Omega\_{z\_{0}}(z\_{k}) = \vec\gamma \cdot \vec M\_{z\_{0}}(z\_{k})$$
