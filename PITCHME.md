@@ -7,18 +7,18 @@ By Alex Yee
 <!-- 
 {
  "data": {
-  "labels": ["Delay", "Replicas", "Delivery Ratio"],
+  "labels": ["Delivery Ratio", "Replicas", "Delay"],
   "datasets": [
    {
-    "data":[50, 1, 70],
+    "data":[70, 1, 50],
     "label":"Direct Delivery","backgroundColor":"rgba(20,220,220,.8)"
    },
    {
-    "data":[35, 50, 88],
+    "data":[88, 50, 35],
     "label":"Prophet","backgroundColor":"rgba(30,219,20,.8)"
    },
    {
-    "data":[15, 100, 95],
+    "data":[95, 100, 15],
     "label":"Epidemic","backgroundColor":"rgba(220,120,120,.8)"
    }
   ]
