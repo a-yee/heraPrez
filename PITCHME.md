@@ -76,12 +76,18 @@ __Transitive Update__
 $$m\_{new}^{(h)}(z\_0, i) = m\_{old}^{(h)}(z\_0,i) + \lambda\_h \cdot
     m\_{old}^{(h-1)}(z\_1,i)$$
 
-$$\text{where } i=1,...,H$$
+$$\text{where } i=1,...,H s.t. i \neq z\_1$$
 
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
 
----
+---?code=HeraRouter.java&lang=java
 ### Decision Making in HERA
 
+@[357](Message forwarding decision)
++++
+$$\Omega\_{z\_0}(z\_k) > \Omega\_{z\_1}(z\_k)$$
+$$p(z\_k) \in \mathbb{R} \implies \text{need } \Omega\_{z\_k} \in \mathbb{R}$$
+
++++
 
