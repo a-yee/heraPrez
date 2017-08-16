@@ -35,15 +35,15 @@ By Alex Yee
  - Can't handle localized cluster of nodes that interact frequently
 
 +++
-Direct Encounters
+__Direct Encounters__
 $$P(a,b) = P(a,b)\_{old} + \left(1 - P(a,b)\_{old}\right) \cdot
     P\_{init}$$
 
-Transitive Update
+__Transitive Update__
 $$P(a,c) = P(a,c)\_{old} + \left(1 - P(a,c)\_{old}\right)\cdot
     P(a,b)\cdot P(b,c) \cdot \beta$$
 
-Aging
+__Aging__
 $$P(a,b) = P(a,b)\_{old} \cdot \gamma^{k}$$
 
 ---
@@ -76,20 +76,22 @@ __Transitive Update__
 $$m\_{new}^{(h)}(z\_0, i) = m\_{old}^{(h)}(z\_0,i) + \lambda\_h \cdot
     m\_{old}^{(h-1)}(z\_1,i)$$
 
-$$\text{where } i=1,...,H \text{s.t. } i \neq z\_1$$
+$$\text{where } i \in \left{\text{set of encountered nodes}\right}
+    \text{ s.t. } i \neq z\_1$$
+$$\text{where } h=1,...,H \text{ for } h \in \mathbb{Z}$$
 
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
 
 ---?code=HeraRouter.java&lang=java
 
-@[357](Message forwarding decision)
+@[357-360](Message forwarding decision)
 
 +++
 ### Decision Inequality
 
 $$\Omega\_{z\_0}(z\_k) > \Omega\_{z\_1}(z\_k)$$
 
-$$p(z\_k) \in \mathbb{R} \implies \text{need } \Omega\_{z\_k} \in \mathbb{R}$$
+$$p(z\_k) \in \mathbb{R} \implies \text{need } \Omega\_{z\_i}(z\_k) \in \mathbb{R}$$
 
 
