@@ -3,16 +3,6 @@
 By Alex Yee
 
 ---
-# cool image stuff
-
-check out the next page. 
-Can you see it ?
-
-+++?image=img00.png
-<!-- .slide: data-background-transition="none" -->
-+++?image=img01.png
-<!-- .slide: data-background-transition="none" -->
----
 <canvas data-chart="radar">
 <!-- 
 {
@@ -37,3 +27,45 @@ Can you see it ?
 }
 -->
 </canvas>
+---
+# Issues with Prophet
+
+Direct Contact
+$$ $$
+
++++?image=imgFile
+<!-- .slide: data-background-transition="none" -->
+
+---
+# HERA Update Formulas
+
+Direct Encounters
+$$m_{new}^{(0)}(z0,z1) = m_{old}^{(0)}(z0,z1) + 1$$
+
+Transitive Update
+$$m_{new}^{(h)}(z0, i) = m_{old}^{(h)}(z0,i) + \lambda_h \cdot m_{old}^{(h-1)}(z1,i)$$
++++?image=img01.png
+<!-- .slide: data-background-transition="none" -->
+
+---
+
+
+
+
+
+
+
+
+
+
+# cool image stuff
+
+check out the next page. 
+Can you see it ?
+
++++?image=img00.png
+<!-- .slide: data-background-transition="none" -->
++++?image=img01.png
+<!-- .slide: data-background-transition="none" -->
+---
+
