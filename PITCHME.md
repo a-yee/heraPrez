@@ -94,4 +94,17 @@ $$\Omega\_{z\_0}(z\_k) > \Omega\_{z\_1}(z\_k)$$
 
 $$p(z\_k) \in \mathbb{R} \implies \text{need } \Omega\_{z\_i}(z\_k) \in \mathbb{R}$$
 
+$$p(z\_k) \approx \begin{align}
+    M\_{z\_{0}}(z\_k) &= \begin{bmatrix}
+        m^{(0)}(z\_k) \\\
+        m^{(1)}(z\_k) \\\
+        m^{(2)}(z\_k) \\\
+        \vdots \\\
+        m^{(H)}(z\_k) \\\
+    \end{bmatrix}
+\end{align}$$
 
+
++++
+
+$$\Omega\_{z\_0}(z\_{k}) = 
