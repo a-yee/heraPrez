@@ -114,6 +114,7 @@ $$p(z\_k) \approx \begin{align}
 
 
 +++
+### Decision Equation
 
 $$\Omega\_{z\_{0}}(z\_{k}) = \sum\_{h=0}^{H} \gamma\_{h} \cdot
     m\_{z\_0}^{(h)}(z\_{k})$$
@@ -121,9 +122,9 @@ $$\Omega\_{z\_{0}}(z\_{k}) = \sum\_{h=0}^{H} \gamma\_{h} \cdot
 $$\Omega\_{z\_{0}}(z\_{k}) = \vec\gamma \cdot \vec M\_{z\_{0}}(z\_{k})$$
 
 +++
-### $\vec \gamma$ & Global Control
+### $\vec \gamma$ Global Control
 
- - $\vec \gamma$ inside of  $\Omega\_{z\_{0}}(z\_{k})$ controls how much weight
+ - $\vec \gamma$ inside of  $\Omega\_{z\_{0}}(z\_{k})$ controls how much
    each hop matters globally
  - Gives control over message passing
  - $\vec\gamma$ represents a way to control which information (AKA hops) we find
@@ -132,5 +133,8 @@ $$\Omega\_{z\_{0}}(z\_{k}) = \vec\gamma \cdot \vec M\_{z\_{0}}(z\_{k})$$
 ---
 ### Conclusion
 
- - HERA gives you more control over the message passing decisions
- - Multi-layer control over encounter information
+ - DTN algorithms try to balance the 3 standard metrics
+ - Prophet is the standard but it has problems
+ - Hera tries to fix these issues by retaining more information and controlling
+   how we use that information
+
