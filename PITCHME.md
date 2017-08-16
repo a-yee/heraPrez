@@ -47,10 +47,11 @@ $$P(a,b) = P(a,b)\_{old} \cdot \gamma^{k}$$
 ---
 # Hop Expansion
 
-$$\begin{align} preds &= \begin{bmatrix}
-    p(z0) \\
-    p(z1) \\
-    \vdots \\
+$$\begin{align} 
+    preds &= \begin{bmatrix}
+    p(z0) \\\
+    p(z1) \\\
+    \vdots \\\
     p(zN) 
     \end{bmatrix}
 \end{align} \rightarrow 
