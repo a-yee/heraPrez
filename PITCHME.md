@@ -39,10 +39,12 @@ Direct Contact
 # HERA Update Formulas
 
 Direct Encounters
-$$m_{new}^{(0)}(z0,z1) = m_{old}^{(0)}(z0,z1) + 1$$
+$$\text{m}_{new}^{(0)}(z0,z1) = \text{m}_{old}^{(0)}(z0,z1) + 1$$
 
 Transitive Update
 $$m_{new}^{(h)}(z0, i) = m_{old}^{(h)}(z0,i) + \lambda_h \cdot m_{old}^{(h-1)}(z1,i)$$
+
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
 
