@@ -28,7 +28,7 @@ By Alex Yee
 -->
 </canvas>
 ---
-# Issues with Prophet
+### Issues with Prophet
 
  - Susceptible to 
 
@@ -45,7 +45,7 @@ Aging
 $$P(a,b) = P(a,b)\_{old} \cdot \gamma^{k}$$
 
 ---
-# Hop Expansion
+### Hop Expansion
 
 $$\begin{align} 
     preds &= \begin{bmatrix}
@@ -65,7 +65,7 @@ $$\begin{align}
 \end{bmatrix}$$
 
 ---
-# HERA Formulas
+### HERA Formulas
 
 Direct Encounters
 $$m\_{new}^{(0)}(z0,z1) = m\_{old}^{(0)}(z0,z1) + 1$$
@@ -80,6 +80,6 @@ $$\text{where } i \in i=1,...,H$$
 <!-- .slide: data-background-transition="none" -->
 
 ---
-# Decision Making in HERA
+### Decision Making in HERA
 
 
