@@ -47,21 +47,20 @@ $$P(a,b) = P(a,b)\_{old} \cdot \gamma^{k}$$
 ---
 # Hop Expansion
 
-$$\begin{aligned} preds &= \begin{bmatrix}
+$$\begin{align} preds &= \begin{bmatrix}
     p(z0) \\
     p(z1) \\
     \vdots \\
     p(zN) 
     \end{bmatrix}
-\end{align} \rightarrow $$
+\end{align} \rightarrow 
 \begin{bmatrix}
     m^{(0)}(z0) m^{(0)}(z1) \cdots m^{(0)}(zN) \\
     m^{(1)}(z0) m^{(1)}(z1) \cdots m^{(0)}(zN) \\
     m^{(2)}(z0) m^{(2)}(z1) \cdots m^{(2)}(zN) \\
-    m^{(3)}(z0) m^{(3)}(z1) \cdots m^{(3)}(zN) \\
     \vdots \vdots \ddots \vdots \\
     m^{(H)}(z0) m^{(H)}(z1) \cdots m^{(H)}(zN)
-\end{bmatrix}
+\end{bmatrix}$$
 
 ---
 # HERA Formulas
