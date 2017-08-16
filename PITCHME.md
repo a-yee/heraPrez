@@ -78,7 +78,15 @@ $$m\_{new}^{(h)}(z\_0, i) = m\_{old}^{(h)}(z\_0,i) + \lambda\_h \cdot
 
 $$\text{where } i \in \\{ \text{set of encountered nodes} \\}
     \text{ s.t. } i \neq z\_1$$
-$$\text{where } h=1,...,H \text{ for } h \in \mathbb{Z}$$
+$$\text{where } h=1,...,H \text{ for } h \in \mathbb{N}$$
+
++++
+### $$\vec\lambda$$ Gives You Control
+
+ - The $$\lambda\_{h}$$ in HERA's update process, simulates how much you trust
+   new information
+ - Local weighting control
+ - Not just hops but control over non-direct encounters.
 
 +++?image=img01.png
 <!-- .slide: data-background-transition="none" -->
@@ -111,3 +119,18 @@ $$\Omega\_{z\_{0}}(z\_{k}) = \sum\_{h=0}^{H} \gamma\_{h} \cdot
     m\_{z\_0}^{(h)}(z\_{k})$$
 
 $$\Omega\_{z\_{0}}(z\_{k}) = \vec\gamma \cdot \vec M\_{z\_{0}}(z\_{k})$$
+
++++
+### $$\vec \gamma$$ & Global Control
+
+ - $$\vec \gamma$$ inside of $$\Omega\_{z\_{0}}(z\_{k})$$ controls how much
+   weight each hop matters gloabally
+ - Answers, "How much should we care about hop h in message passing?"
+ - $$\vec\gamma$$ represents a way to control which information (AKA hops) we
+   find important.
+
+---
+### Conclusion
+
+ - HERA gives you more control over the message passing decisions
+ - Multi-layer control over encounter information
